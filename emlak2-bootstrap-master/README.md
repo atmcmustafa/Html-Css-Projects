@@ -1,0 +1,1 @@
+https://atmacaemlak.netlify.app

@@ -1,0 +1,232 @@
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+p {
+    letter-spacing: 0.3px;
+}
+
+.fs-sm {
+    font-size: 14px;
+}
+
+.rounded-5 {
+    border-radius: 30px;
+}
+
+.text-gray {
+    color: #797979;
+}
+
+.home-area {
+    background-image: url(img/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
+}
+
+.color-blue {
+    color: #5e87eb;
+}
+
+.bg-white {
+    background: rgb(215, 215, 215, 0.17);
+}
+
+.cards .card p {
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.cards .card {
+    transition: all 500ms;
+}
+
+.cards .card:hover {
+    transform: translateY(-30px);
+    background: #6610f2 !important;
+    transform: translateY(-5px);
+    background: #000;
+}
+
+.cards .card:hover p {
+    color: #fff;
+}
+
+.solutions {
+    background-color: rgb(215, 215, 215, 0.17);
+}
+
+.experience {
+    background-image: url(img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 250px;
+}
+
+
+.about-us
+{
+    background-image: url(img/page-title-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 420px;
+}
+
+
+.services-1 {
+    background-image: url(img/page-title-bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 420px;
+}
+
+.services-details {
+    background-image: url(img/page-title-bg-2.jpg),linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 420px;
+    
+
+}
+
+.card-bg {
+    background-image: url(img/projects-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card-bg-2 {
+    background-image: url(img/projects-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-bg-3 {
+    background-image: url(img/projects-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-bg-4 {
+    background-image: url(img/projects-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-bg-5 {
+    background-image: url(img/projects-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-bg-6 {
+    background-image: url(img/projects-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-projects .card p {
+    display: none;
+}
+
+.our-projects .card:hover p{
+    display: block;
+}
+
+.accordion button {
+font-weight: bold;
+}
+
+.accordion-button:focus {
+    background: #fff;
+}
+
+.accordion:focus {
+    color: #5e87eb;
+    border: none;
+    outline: none !important;
+    background: #fff;
+}
+
+.text-dp p{
+    display: none;
+}
+
+.text-dp:hover p{
+    display: block;
+}
+
+.coming-soon{
+    background-image: url(img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.rounded-6 {
+    border-radius: 50%;
+}
+
+.footer {
+    background-image: url(img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 320px;
+}
+
+@media (max-width:768px) {
+    .experience {
+    background-image: url(img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 450px;
+}
+
+
+    .contact-us {
+    background-image: url(img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 270px;
+}
+
+    .footer {
+    background-image: url(img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1100px;
+}
+}
+
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#map a {
+    display: none;
+}
+

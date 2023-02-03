@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Blog Content | Medyum</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+
+<body class="flex justify-center items-center h-screen bg-lightGray">
+
+    <section class="flex justify-center items-center p-12 w-full  lg:w-1/2">
+        <!-- title caption -->
+        <div class="flex flex-col w-full gap-4">
+            <h1 class="font-bold text-3xl text-center mx-auto">
+                <img src="images/wordmark.svg">
+            </h1>
+            <input type="text" class="bg-halfGray placeholder:text-black px-4 py-2 text-sm focus:outline-none "
+                placeholder="Title">
+            <textarea name="textarea" id="" cols="30" rows="10" class="px-4 py-2 text-sm focus:outline-none"
+                placeholder="Start write a story.."></textarea>
+
+            <div class="flex gap-3">
+                <select id="cars" name="cars">
+                    <option value="empty">...</option>
+                    <option value="programming">Programming</option>
+                    <option value="datascience">Data Science</option>
+                    <option value="programming">Programming</option>
+                    <option value="programming">Programming</option>
+                    <option value="other">Other</option>
+                </select>
+                <button class="bg-halfGray px-3 py-2 text-white">
+                    Add a Category (+)
+                </button>
+            </div>
+            <button name="submit" type="submit" class="bg-lightGreen text-white py-2">
+                Confirm and Publish
+            </button>
+            <button name="submit" type="submit" class="bg-googleRed text-white py-2">
+                Disgard Changes
+            </button>
+        </div>
+    </section>
+
+</body>
+
+</html>

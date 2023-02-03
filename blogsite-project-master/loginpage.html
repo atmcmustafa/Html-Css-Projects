@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="h-screen flex items-center justify-center font-openSans"
+    style="background: rgb(108,103,203);
+background: rgb(202,207,82);
+background: linear-gradient(90deg, rgba(202,207,82,1) 0%, rgba(74,76,25,1) 0%, rgba(200,201,177,1) 0%, rgba(54,55,38,1) 0%, rgba(241,255,0,1) 100%, rgba(0,212,255,1) 100%);">
+
+    <div class="p-16 rounded-lg bg-white gap-4 flex flex-col border">
+        <h1 class="text-xl font-bold text-center">Login</h1>
+        <form name="contact" method="POST" data-netlify="true" class="flex flex-col">
+            <input type="hidden" name="form-name" value="contact">
+            <small class="text-xs">Username</small>
+            <div>
+                <i class="fa-solid fa-user my-auto"></i>
+                <input type="text" class="px-2 py-2 border-b  focus:outline-none" placeholder="Type your username">
+            </div>
+            <small class="text-xs mt-5">Password</small>
+            <div>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" class="px-2 py-2 border-b  focus:outline-none" placeholder="Type your password">
+            </div>
+            <p class="flex justify-end mt-2 text-sm font-semibold">
+                <a href="#" class="hover:text-gray-500 duration-300 cursor-pointer">Forgot password?</a>
+            </p>
+            <a href="user-profile.html" type="submit" class="rounded-full text-center bg-black mt-3 py-2 text-white uppercase
+            hover:bg-indigo-900 duration-500 cursor-pointer
+            ">
+                Login
+            </a>
+            <p class="flex justify-center text-center mt-4">or Sign up Using</p>
+            <div class="mt-4 flex items-center justify-center text-white gap-4">
+                <i class="fa-brands fa-twitter rounded-full bg-twitterBlue p-3  duration-300 cursor-pointer"></i>
+                <i class="fa-brands fa-facebook rounded-full bg-facebookBlue p-3 duration-300 cursor-pointer"></i>
+                <i class="fa-brands fa-google rounded-full bg-googleRed p-3
+                hover:bg-red-900 duration-300 cursor-pointer
+                "></i>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

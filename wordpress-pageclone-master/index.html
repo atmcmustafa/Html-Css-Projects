@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Site</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="p-8 shadow-sm sticky">
+        <nav class="flex justify-between items-center">
+            <span class="text-2xl font-bold">LOGO</span>
+            <ul class="hidden md:flex gap-6 ">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Level1</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            </ul>
+            <div class="block md:hidden text-3xl cursor-pointer"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+    </header>
+    <!-- hero section -->
+    <section class="p-12 flex items-center justify-center text-sm md:text-medium"
+        style="background-image: url(images/hero-photo.jpg);background-repeat: no-repeat; background-size: cover;height: 650px;">
+        <div class="text-white gap-4 flex flex-col text-center  ">
+            <h1 class="text-4xl font-semibold w-full">We <span class="text-black">Change</span> Everything WordPress
+            </h1>
+            <p class="">This is the only WordPress theme you will ever want to use.</p>
+            <div class="buttons flex gap-4 mt-3 items-center justify-center max-w-xl min-w-full mx-auto">
+                <button
+                    class="py-4 px-8  md:px-16 rounded-lg bg-indigo-500 hover:bg-indigo-800 duration-300 font-semibold flex">
+                    Read More
+                </button>
+                <button
+                    class="py-4 px-16 rounded-lg bg-transparent border border-white hover:bg-white duration-300 hover:text-black font-semibold">
+                    Download Now
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- macbook-1 -->
+    <section class="p-8 gap-12 md:gap-48 flex flex-col md:flex-row items-center justify-center container mx-auto">
+        <div class="w-full md:w-1/2">
+            <img src="images/macbook-preview-flexible.png" alt="">
+        </div>
+        <div class="w-full md:w-1/2 md:text-start text-center ">
+            <h1 class="text-3xl font-bold">SEO Friendly</h1>
+            <p class="text-gray-500 mt-2 w-full md:w-2/3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                pulvinar luctus
+                sem,
+                eget porta orci.
+                Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et
+                interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies.</p>
+            <button class="px-12 py-3 rounded-md bg-indigo-600 hover:bg-indigo-500 duration-300 mt-4 text-white"> Read
+                More</button>
+        </div>
+    </section>
+    <!-- macbook-2 -->
+    <section
+        class="p-8 md:gap-12  flex flex-col-reverse md:flex-row-reverse items-center justify-center container mx-auto bg-gray-200">
+        <div class="w-full md:w-1/2">
+            <img src="images/flexible-portfolio.png" alt="">
+        </div>
+        <div class="w-full md:w-1/2 md:text-start text-center  md:p-24">
+            <h1 class="text-3xl font-bold">Portfolio Section
+            </h1>
+            <p class="text-gray-500 mt-2 w-full md:w-2/3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                pulvinar luctus
+                sem,
+                eget porta orci.
+                Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et
+                interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies.</p>
+            <button class="px-12 py-3 rounded-md bg-indigo-600 hover:bg-indigo-500 duration-300 mt-4 text-white">See it
+                in action</button>
+        </div>
+    </section>
+
+
+    <section class="flex items-center justify-center text-sm md:text-medium text-white"
+        style="background-image: url(images/photo-1452723312111-3a7d0db0e024.jpg);background-repeat: no-repeat; background-size: cover;height: 350px;">
+        <div>
+            <h1 class="text-3xl text-center font-semibold">Small Parallax Section</h1>
+            <p class="w-2/3 mx-auto mt-3 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                imperdiet
+                rhoncus
+                porta. Ut quis sem quis
+                purus lobortis dictum. Aliquam nec dignissim nisl. Vivamus cursus feugiat sapien, eget tincidunt leo
+                ornare
+                quis.</p>
+            <button
+                class="px-16 py-4 rounded-sm bg-indigo-600 hover:bg-indigo-500 duration-300 flex justify-center mx-auto mt-8 uppercase ">
+                more info
+            </button>
+        </div>
+
+    </section>
+
+
+    <div class="my-12 container">
+        <h1 class="text-3xl text-center font-semibold">Small Parallax Section</h1>
+        <p class="w-2/3 mx-auto mt-3 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            imperdiet
+            rhoncus
+            porta. Ut quis sem quis
+            purus lobortis dictum. Aliquam nec dignissim nisl. Vivamus cursus feugiat sapien, eget tincidunt leo
+            ornare
+            quis.</p>
+        <button
+            class="px-16 py-4 rounded-sm bg-indigo-600 hover:bg-indigo-500 duration-300 flex justify-center mx-auto mt-8 uppercase text-white text-sm font-semibold">
+            Download Now
+        </button>
+    </div>
+    <!-- customers says -->
+    <section class="text-center flex items-center justify-center text-sm md:text-medium text-white"
+        style="background-image: url(images/customers-bg.jpg);background-repeat: no-repeat; background-size: cover;height: 350px;">
+        <div>
+            <h1 class="text-3xl text-center font-semibold">What Our Customers Say</h1>
+            <p class="w-2/3 mx-auto mt-3 text-center">Integer ut rutrum nulla, sit amet fringilla nisi. Nam nisl velit,
+                vehicula at nibh sed, porttitor sollicitudin ante. Sed justo augue, vestibulum ut efficitur vitae,
+                euismod et justo. Mauris sed mattis ante. Ut ligula lectus, consequat vitae neque ac, gravida hendrerit
+                ante.</p>
+            <div class="flex flex-col mx-auto items-center justify-center mt-5 rounded-full w-2/12">
+                <img src="images/mike-muller-150x150.jpg" alt="customers" class="rounded-full ">
+                <span class="text-white mt-3 font-semibold text-lg">John Doe</span>
+            </div>
+        </div>
+    </section>
+    <!-- clients -->
+    <section class="container p-12">
+
+        <h1 class="font-bold text-center text-3xl">Our Main Clients</h1>
+        <div class="flex gap-24 justify-center mt-8 ">
+            <img src="images/js-logo.png" alt="logo" class="w-1/12 cursor-pointer">
+            <img src="images/css-logo.png" alt="logo" class="w-1/12 cursor-pointer">
+            <img src="images/html5-logo.png" alt="logo" class="w-1/12 cursor-pointer">
+            <img src="images/less-logo.png" alt="logo" class="w-1/12 cursor-pointer">
+
+        </div>
+    </section>
+    <!-- do you like ? -->
+    <section class="bg-slate-200 p-12 flex flex-col md:flex-row  gap-12 justify-center items-center">
+        <span class="text-3xl font-semibold">Do you like this awesome WordPress theme?</span>
+        <button
+            class="px-12 py-3 rounded-sm bg-indigo-600 hover:bg-indigo-500 duration-300 text-white w-full md:w-1/5">Download
+            Now</button>
+    </section>
+    <!-- footer -->
+
+    <footer class="bg-black p-12 flex flex-col md:flex-row gap-8 justify-between items-center text-white">
+        <p>Theme by Colorlib Powered by WordPress</p>
+        <div class="flex gap-6 items-center text-lg">
+            <i class="fa-brands fa-twitter cursor-pointer hover:text-blue-400 duration-300"></i>
+            <i class="fa-brands fa-facebook cursor-pointer hover:text-blue-800 duration-300"></i>
+            <i class="fa-brands fa-linkedin cursor-pointer hover:text-blue-600 duration-300"></i>
+            <i class="fa-brands fa-github cursor-pointer hover:text-gray-800 duration-300"></i>
+            <i class="fa-brands fa-youtube cursor-pointer hover:text-red-800 duration-300"></i>
+        </div>
+    </footer>
+</body>
+
+</html>

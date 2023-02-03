@@ -1,0 +1,33 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="191.17" height="39.07" viewBox="0 0 191.17 39.07">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="1.253" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5007b"/>
+      <stop offset="1" stop-color="#8900ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="-0.209" y1="0.363" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5c01c6"/>
+      <stop offset="1" stop-color="#f500ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="1" y1="0.33" xlink:href="#linear-gradient-5"/>
+    <linearGradient id="linear-gradient-7" x1="0.867" y1="-0.206" xlink:href="#linear-gradient-5"/>
+    <linearGradient id="linear-gradient-8" x1="0.5" y1="0" xlink:href="#linear-gradient-5"/>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g id="game" transform="translate(93.069 5.389)" style="isolation: isolate">
+      <g id="Group_4418" data-name="Group 4418" style="isolation: isolate">
+        <path id="Path_32285" data-name="Path 32285" d="M133.16,24.514V7.74H152.9V24.514h-8.485v2.8H152.9V41.4H133.16V35.809h14.111V32.957h-8.485V24.514Zm5.626-11.127v5.626h8.485V13.422Z" transform="translate(-133.16 -7.719)" fill="url(#linear-gradient)"/>
+        <path id="Path_32286" data-name="Path 32286" d="M166.59,32.948V16.111h13.979V13.378H166.716V7.71h19.612V32.948ZM180.568,21.7h-8.31v5.626h8.317Z" transform="translate(-143.225 -7.71)" fill="url(#linear-gradient)"/>
+        <path id="Path_32287" data-name="Path 32287" d="M222.477,32.948V13.378h-5.591v19.57h-5.591V13.378H205.7v19.57H200V7.71h28.048V32.948Z" transform="translate(-153.284 -7.71)" fill="url(#linear-gradient)"/>
+        <path id="Path_32288" data-name="Path 32288" d="M245.34,32.948V7.71h19.7V24.484H251.008v2.859h14.027v5.591Zm13.979-19.57H251V19h8.317Z" transform="translate(-166.935 -7.71)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="kasa" style="isolation: isolate">
+      <g id="Group_4419" data-name="Group 4419" style="isolation: isolate">
+        <path id="Path_32289" data-name="Path 32289" d="M12.916,14.027H19.7V30.865H13.978V19.612H5.668V30.865H0V0H5.668V14.027l7.08-8.387h7.374Z" fill="url(#linear-gradient-5)"/>
+        <path id="Path_32290" data-name="Path 32290" d="M34,33.288V16.451H47.978V13.725H34.112V8.05H53.724V33.288ZM47.978,22.035H39.654v5.626h8.324Z" transform="translate(-10.237 -2.424)" fill="url(#linear-gradient-6)"/>
+        <path id="Path_32291" data-name="Path 32291" d="M67.4,33.321V27.73H81.379V22.138H67.4V8.16H87.1v5.675H73.075v2.726H87.1v16.76Z" transform="translate(-20.292 -2.457)" fill="url(#linear-gradient-7)"/>
+        <path id="Path_32292" data-name="Path 32292" d="M100.77,33.288V16.451h13.978V13.725H100.931V8.05H120.5V33.288Zm13.978-11.253h-8.317v5.626h8.317Z" transform="translate(-30.339 -2.424)" fill="url(#linear-gradient-8)"/>
+      </g>
+    </g>
+  </g>
+</svg>

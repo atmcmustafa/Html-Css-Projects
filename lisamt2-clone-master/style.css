@@ -1,0 +1,107 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+        font-family: noto sans, sans-serif;
+    color: #fff;
+    font-size: 14px;
+}
+
+body {
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;    
+}
+
+.navbar ul li{
+    display: inline;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.navbar ul li a{ 
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    
+    
+}
+
+.bg-gray {
+    background: #ffffff38;
+    
+}
+
+.login-button {
+    height: 50px;    
+   
+}
+
+
+#login {
+    background-color: #380140;
+    border: 1px solid #9c27b0;
+}
+
+#register {
+    background-color: #5d200b;
+    border: 1px solid #ff5722;
+}
+
+#forgot {
+    background-color: #033505;
+    border: 1px solid #4caf50;
+}
+
+#facebook {
+    background-color: #093354;
+    border: 1px solid #2196f3;
+}
+
+.title {
+    background-image: url(img/header_sub.png);
+    height: 57px;
+    color: #aaf5e2;
+}
+
+.downlaod {
+    background-image: url(img/oyunu-indir.jpg);
+    width: auto;
+    height: 80px;    
+}
+
+
+.news {
+    height: 61px;
+    border: 1px solid #283844;
+    margin-bottom: 5px!important;
+    border-radius: 3px;
+    background: linear-gradient(180deg, rgb(32 45 56) 0%, rgb(23 33 41) 100%);
+
+}
+
+.content {
+        border: 1px solid #283844;
+        background: linear-gradient(180deg, rgb(32 45 56) 0%, rgb(23 33 41) 100%);
+
+}
+
+.blur {
+    background-image: url(img/header_sub.png);
+}
+
+.w-30 {
+    width: 330px;
+}

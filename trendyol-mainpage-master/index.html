@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Trendyol</title>
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+    <header class="container">
+        <div class="row p-4 flex align-items-center">
+            <div class="col-3">
+                <img src="image/logo.svg" class="w-50">
+            </div>
+            <div class="col-5 position-relative">
+                <input class="px-3 py-2 w-100 rounded-5" type="text" placeholder="Aradığınız ürünü yazınız">
+                <i style="top: 10px; right: 25px;color: orange;" class="position-absolute fas fa-search fs-4"></i>
+            </div>
+            <div class="col-4 ">
+                <ul class="position-relative  d-flex align-items-center my-auto gap-4 fw-bold fw-bolder fs-6">
+                    <li>
+                        <i class="fas fa-user me-1"></i>
+                        <a href="#">Giriş Yap</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-heart me-1"></i>
+                        <a href="#">Favorilerim</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-shopping-basket me-1"></i>
+                        <a href="#">Sepetim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- kategoriler -->
+    <div class="container">
+
+        <div class="row">
+            <div class="links col-md d-flex align-items-center gap-2  fw-bolder text-black">
+                <a class="px-2" href="#">KADIN</a>
+                <a class="px-2" href="#">ERKEK</a>
+                <a class="px-2 href=" #">ANNE&ÇOCUK</a>
+                <a class="px-2" href="#">EV&MOBİLYA</a>
+                <a class="px-2" href="#">SÜPERMARKET</a>
+                <a class="px-2" href="#">AYAKKABI&ÇANTA</a>
+                <a class="px-2" href="#">ELEKTRONİK</a>
+                <a class="px-2" href="#">SPOR&OUTDOOR</a>
+                <a class="px-2" href="#">ÇOK SATANLAR</a>
+                <a class="px-2" href="#">FLAŞ İNDİRİMLER</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- sana özel! -->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="d-flex align-items-center col-12">
+                <div class="d-flex align-items-center flex-column ">
+                    <img src="image/cok-satanlar.webp" class="w-50">
+                    <p class="mt-2 fw-bold ">Sen de al!</p>
+                </div>
+                <div class="d-flex align-items-center flex-column " style="border-radius: 50%;">
+                    <img src="image/senin-icin.webp" class="w-50">
+                    <p class="mt-2 fw-bold">Sana Özel</p>
+                </div>
+                <div class="d-flex align-items-center flex-column ">
+                    <img style="border-radius: 50%;" src="image/kurumsal.webp" class="w-50">
+                    <p class="mt-2 fw-bold">Kurumsal</p>
+                </div>
+                <div class="d-flex align-items-center flex-column ">
+                    <img style="border-radius: 50%;" src="image/trendyol-mila.webp" class="w-50">
+                    <p class="mt-2 fw-bold">TrendyolMilla</p>
+                </div>
+                <div class="d-flex align-items-center flex-column ">
+                    <img style="border-radius: 50%;" src="image/apple.webp" class="w-50">
+                    <p class="mt-2 fw-bold">Apple</p>
+                </div>
+                <div class="d-flex align-items-center flex-column ">
+                    <img style="border-radius: 50%;" src="image/PullBear_202301271558.webp" class="w-50">
+                    <p class="mt-2 fw-bold">Pull&Bear</p>
+                </div>
+                <div class="d-flex align-items-center flex-column ">
+                    <img style="border-radius: 50%;" src="image/Nike_202301271540.webp" class="w-50">
+                    <p class="mt-2 fw-bold">Nike</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- gradientler -->
+
+    <section class="container">
+        <div class="row my-5 gap-3">
+            <div style="cursor: pointer; border-radius: 10px; background: rgb(26,233,50);
+            background: linear-gradient(90deg, rgba(26,233,50,1) 0%, rgba(28,140,13,1) 100%, rgba(0,212,255,1) 100%);"
+                class="col d-flex align-items-center justify-content-center fs-4 p-4 bg-danger">
+                <a class="fw-bold " style="color: white;;" href="#">Sepete En Çok
+                    Eklenenler</a>
+            </div>
+            <div style="cursor: pointer; border-radius: 10px; background: rgb(111,36,209);
+            background: linear-gradient(90deg, rgba(111,36,209,1) 0%, rgba(68,53,238,1) 100%, rgba(66,16,204,1) 100%);"
+                class="col d-flex align-items-center justify-content-center fs-4 p-4 bg-danger">
+                <a class="fw-bold " style="color: white;;" href="#">En Çok Öne Çıkanlar</a>
+            </div>
+            <div style="cursor: pointer; border-radius: 10px; background: rgb(131,58,180);
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(253,35,31,1) 0%, rgba(252,176,69,1) 100%);"
+                class="col d-flex align-items-center justify-content-center fs-4 p-4 bg-danger">
+                <a class="fw-bold " style="color: white;;" href="#">Flaş İndirimler</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- cards -->
+    <section class="container">
+        <div class="row gap-4 ">
+            <!-- card-1 -->
+            <div class="col m-0 p-0 ">
+                <img style=" border-radius: 10px 10px 0 0;" class="w-100" src="image/card-image1.webp">
+                <div class="card-hover p-2 d-flex justify-content-between fs-5 bg-black text-white">
+                    <a style="border-radius: 0 0 10px 10px;" class="text-white " href="#">Dev
+                        markalarda indirim!</a>
+                    <a class="text-white hidden" href="#">Alışverişe Başla
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- card-1 -->
+            <div class="col m-0 p-0 ">
+                <img style=" border-radius: 10px 10px 0 0;" class="w-100" src="image/card-2.webp">
+                <div class="card-hover p-2 d-flex justify-content-between fs-5 bg-black text-white">
+                    <a style="border-radius: 0 0 10px 10px;" class="text-white " href="#">Aradığın tüm Ev Gereçleri</a>
+                    <a class="text-white hidden" href="#">Alışverişe Başla
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- card-1 -->
+            <div class="col m-0 p-0 ">
+                <img style=" border-radius: 10px 10px 0 0;" class="w-100" src="image/card-3.webp">
+                <div class="card-hover p-2 d-flex justify-content-between fs-5 bg-black text-white">
+                    <a style="border-radius: 0 0 10px 10px;" class="text-white " href="#">Dev
+                        markalarda indirim!</a>
+                    <a class="text-white hidden" href="#">Alışverişe Başla
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- row 2 -->
+        <div class="row gap-4 my-5">
+            <!-- card-1 -->
+            <div class="col m-0 p-0 ">
+                <img style=" border-radius: 10px 10px 0 0;" class="w-100" src="image/card-4.webp">
+                <div class="card-hover p-2 d-flex justify-content-between fs-5 bg-black text-white">
+                    <a style="border-radius: 0 0 10px 10px;" class="text-white " href="#">Pull&Bear</a>
+                    <a class="text-white hidden" href="#">Alışverişe Başla
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- card-1 -->
+            <div class="col m-0 p-0 ">
+                <img style=" border-radius: 10px 10px 0 0;" class="w-100" src="image/card-5.webp">
+                <div class="card-hover p-2 d-flex justify-content-between fs-5 bg-black text-white">
+                    <a style="border-radius: 0 0 10px 10px;" class="text-white " href="#">Oyuncak</a>
+                    <a class="text-white hidden" href="#">Alışverişe Başla
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- card-1 -->
+            <div class="col m-0 p-0 ">
+                <img style=" border-radius: 10px 10px 0 0;" class="w-100" src="image/card-6.webp">
+                <div class="card-hover p-2 d-flex justify-content-between fs-5 bg-black text-white">
+                    <a style="border-radius: 0 0 10px 10px;" class="text-white " href="#">Mango</a>
+                    <a class="text-white hidden" href="#">Alışverişe Başla
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ürünler -->
+    <div class="container" style="background: #fffaf6;">
+        <div class="row">
+            <div class="col-12 p-4">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h3>Öne Çıkanlar</h3>
+                    <a href="#">Tüm Ürünler!</a>
+                </div>
+            </div>
+
+            <!-- sıra 1  -->
+            <div class="row p-5 position-relative gap-3">
+                <!-- urun 1 -->
+                <div
+                    class="col d-flex flex-column justify-content-center align-items-center gap-4 position-relative p-3 border bg-white">
+                    <img style="cursor: pointer;" src="image/urun-1.webp" class="w-50">
+                    <span style="cursor: pointer;" class="lead"><b>Doğal Kabak</b> Lifli Aloe Vera Sabunu 130 Gr</span>
+                    <span style="color: orange;cursor: pointer;" class="me-auto fw-bold fs-5">59 TL</span>
+                    <span style="top: 5px;right: 5px;border-radius: 50%;"
+                        class="position-absolute top-0 px-3 py-2 text-black fw-bold border mt-2">
+                        <i class="fas fa-heart heart"></i>
+                    </span>
+                </div>
+                <!-- urun 1 -->
+                <div
+                    class="col d-flex flex-column justify-content-center align-items-center gap-4 position-relative p-3 border bg-white">
+                    <img style="cursor: pointer;" src="image/urun-2.webp" class="w-50">
+                    <span style="cursor: pointer;" class="lead"><b>Doğal Kabak</b> Lifli Aloe Vera Sabunu 130 Gr</span>
+                    <span style="color: orange;cursor: pointer;" class="me-auto fw-bold fs-5">59 TL</span>
+                    <span style="top: 5px;right: 5px;border-radius: 50%;"
+                        class="position-absolute top-0 px-3 py-2 text-black fw-bold border mt-2">
+                        <i class="fas fa-heart heart"></i>
+                    </span>
+                </div>
+                <!-- urun 1 -->
+                <div
+                    class="col d-flex flex-column justify-content-center align-items-center gap-4 position-relative p-3 border bg-white">
+                    <img style="cursor: pointer;" src="image/urun-3.webp" class="w-50">
+                    <span style="cursor: pointer;" class="lead"><b>Doğal Kabak</b> Lifli Aloe Vera Sabunu 130 Gr</span>
+                    <span style="color: orange;cursor: pointer;" class="me-auto fw-bold fs-5">59 TL</span>
+                    <span style="top: 5px;right: 5px;border-radius: 50%;"
+                        class="position-absolute top-0 px-3 py-2 text-black fw-bold border mt-2">
+                        <i class="fas fa-heart heart"></i>
+                    </span>
+                </div>
+                <!-- urun 1 -->
+                <div
+                    class="col-3 d-flex flex-column justify-content-center align-items-center gap-4 position-relative p-3 border bg-white">
+                    <img style="cursor: pointer;" src="image/urun-4.webp" class="w-50">
+                    <span style="cursor: pointer;" class="lead"><b>Doğal Kabak</b> Lifli Aloe Vera Sabunu 130 Gr</span>
+                    <span style="color: orange;cursor: pointer;" class="me-auto fw-bold fs-5">59 TL</span>
+                    <span style="top: 5px;right: 5px;border-radius: 50%;"
+                        class="position-absolute top-0 px-3 py-2 text-black fw-bold border mt-2">
+                        <i class="fas fa-heart heart"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- sıra 1  -->
+            <div class="row p-5 position-relative gap-3">
+                <!-- urun 1 -->
+                <div
+                    class="col d-flex flex-column justify-content-center align-items-center gap-4 position-relative p-3 border bg-white">
+                    <img style="cursor: pointer;" src="image/urun-5.webp" class="w-50">
+                    <span style="cursor: pointer;" class="lead"><b>Doğal Kabak</b> Lifli Aloe Vera Sabunu 130 Gr</span>
+                    <span style="color: orange;cursor: pointer;" class="me-auto fw-bold fs-5">59 TL</span>
+                    <span style="top: 5px;right: 5px;border-radius: 50%;"
+                        class="position-absolute top-0 px-3 py-2 text-black fw-bold border mt-2">
+                        <i class="fas fa-heart heart"></i>
+                    </span>
+                </div>
+                <!-- urun 1 -->
+                <div
+                    class="col d-flex flex-column justify-content-center align-items-center gap-4 position-relative p-3 border bg-white">
+                    <img style="cursor: pointer;" src="image/urun-6.webp" class="w-50">
+                    <span style="cursor: pointer;" class="lead"><b>Doğal Kabak</b> Lifli Aloe Vera Sabunu 130 Gr</span>
+                    <span style="color: orange;cursor: pointer;" class="me-auto fw-bold fs-5">59 TL</span>
+                    <span style="top: 5px;right: 5px;border-radius: 50%;"
+                        class="position-absolute top-0 px-3 py-2 text-black fw-bold border mt-2">
+                        <i class="fas fa-heart heart"></i>
+                    </span>
+                </div>
+                <!-- urun 1 -->
+                <div
+                    class="col d-flex flex-column justify-content-center align-items-center gap-4 position-relative p-3 border bg-white">
+                    <img style="cursor: pointer;" src="image/urun-7.webp" class="w-50">
+                    <span style="cursor: pointer;" class="lead"><b>Doğal Kabak</b> Lifli Aloe Vera Sabunu 130 Gr</span>
+                    <span style="color: orange;cursor: pointer;" class="me-auto fw-bold fs-5">59 TL</span>
+                    <span style="top: 5px;right: 5px;border-radius: 50%;"
+                        class="position-absolute top-0 px-3 py-2 text-black fw-bold border mt-2">
+                        <i class="fas fa-heart heart"></i>
+                    </span>
+                </div>
+                <!-- urun 1 -->
+                <div
+                    class="col-3 d-flex flex-column justify-content-center align-items-center gap-4 position-relative p-3 border bg-white">
+                    <img style="cursor: pointer;" src="image/urun-8.webp" class="w-50">
+                    <span style="cursor: pointer;" class="lead"><b>Doğal Kabak</b> Lifli Aloe Vera Sabunu 130 Gr</span>
+                    <span style="color: orange;cursor: pointer;" class="me-auto fw-bold fs-5">59 TL</span>
+                    <span style="top: 5px;right: 5px;border-radius: 50%;"
+                        class="position-absolute top-0 px-3 py-2 text-black fw-bold border mt-2">
+                        <i class="fas fa-heart heart"></i>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- cards -->
+    <section class="container">
+        <div class="row gap-4 my-5">
+            <!-- card-1 -->
+            <div class="col m-0 p-0 ">
+                <img style=" border-radius: 10px 10px 0 0;" class="w-100" src="image/bershka.webp">
+                <div class="card-hover p-2 d-flex justify-content-between fs-5 bg-black text-white">
+                    <a style="border-radius: 0 0 10px 10px;" class="text-white " href="#">Dev
+                        markalarda indirim!</a>
+                    <a class="text-white hidden" href="#">Alışverişe Başla
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- card-1 -->
+            <div class="col m-0 p-0 ">
+                <img style=" border-radius: 10px 10px 0 0;" class="w-100" src="image/suwen.webp">
+                <div class="card-hover p-2 d-flex justify-content-between fs-5 bg-black text-white">
+                    <a style="border-radius: 0 0 10px 10px;" class="text-white " href="#">Aradığın tüm Ev Gereçleri</a>
+                    <a class="text-white hidden" href="#">Alışverişe Başla
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- card-1 -->
+            <div class="col m-0 p-0 ">
+                <img style=" border-radius: 10px 10px 0 0;" class="w-100" src="image/dekorasyon.webp">
+                <div class="card-hover p-2 d-flex justify-content-between fs-5 bg-black text-white">
+                    <a style="border-radius: 0 0 10px 10px;" class="text-white " href="#">Dev
+                        markalarda indirim!</a>
+                    <a class="text-white hidden" href="#">Alışverişe Başla
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- row 2 -->
+        <div class="row gap-4 my-5">
+            <!-- card-1 -->
+            <div class="col m-0 p-0 ">
+                <img style=" border-radius: 10px 10px 0 0;" class="w-100" src="image/cilt.webp">
+                <div class="card-hover p-2 d-flex justify-content-between fs-5 bg-black text-white">
+                    <a style="border-radius: 0 0 10px 10px;" class="text-white " href="#">Pull&Bear</a>
+                    <a class="text-white hidden" href="#">Alışverişe Başla
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- card-1 -->
+            <div class="col m-0 p-0 ">
+                <img style=" border-radius: 10px 10px 0 0;" class="w-100" src="image/defacto.webp">
+                <div class="card-hover p-2 d-flex justify-content-between fs-5 bg-black text-white">
+                    <a style="border-radius: 0 0 10px 10px;" class="text-white " href="#">Oyuncak</a>
+                    <a class="text-white hidden" href="#">Alışverişe Başla
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- card-1 -->
+            <div class="col m-0 p-0 ">
+                <img style=" border-radius: 10px 10px 0 0;" class="w-100" src="image/xioami.webp">
+                <div class="card-hover p-2 d-flex justify-content-between fs-5 bg-black text-white">
+                    <a style="border-radius: 0 0 10px 10px;" class="text-white " href="#">Mango</a>
+                    <a class="text-white hidden" href="#">Alışverişe Başla
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- footer -->
+
+    <div class="text-white bg-black">
+        <footer class="container">
+            <div class="row py-5">
+                <nav class="col-3">
+                    <h3>Trendyol</h3>
+                    <ul class="p-0 m-0">
+                        <li class="my-4 fs-6"><a href="#">Biz Kimiz?</a></li>
+                        <li class="my-4 fs-6"><a href="#">Kariyer</a></li>
+                        <li class="my-4 fs-6"><a href="#">İletişim</a></li>
+                        <li class="my-4 fs-6"><a href="#">Trendyolda Satış Yap</a></li>
+                        <li class="my-4 fs-4 fontbold
+                        "><a href="#">Güvenli Alışveriş</a></li>
+                        <div class="d-flex gap-4">
+                            <div style="background: url(image/troy-logo-transparent.webp) no-repeat center left;
+                            width: 62px;
+                            height: 35px;
+                            display: inline-block;
+                            position: relative;
+                            top: 4px;
+                            background-size: contain;"></div>
+                            <div style="background: url(https://cdn.dsmcdn.com/web/production/footer-master-card.png) no-repeat center left;
+                               width: 62px;
+                               height: 35px;
+                               display: inline-block;
+                               position: relative;
+                               top: 4px;
+                               background-size: contain;"></div>
+                            <div style="background: url(image/footer-visa-black.webp) no-repeat center left;
+                                  width: 62px;
+                                  height: 35px;
+                                  display: inline-block;
+                                  position: relative;
+                                  top: 4px;
+                                  background-size: contain;"></div>
+                            <div style="background: url(image/footer-amex.webp) no-repeat center left;
+                                     width: 62px;
+                                     height: 35px;
+                                     display: inline-block;
+                                     position: relative;
+                                     top: 4px;
+                                     background-size: contain;"></div>
+                        </div>
+
+                    </ul>
+                </nav>
+
+                <nav class="col-3">
+                    <div>
+                        <h3>About Us</h3>
+                        <ul class="p-0 m-0">
+                            <li class="my-4 fs-6"><a href="#">Biz Kimiz?</a></li>
+                            <li class="my-4 fs-6"><a href="#">Kariyer</a></li>
+                            <li class="my-4 fs-6"><a href="#">İletişim</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <nav class="col-3">
+                    <div>
+                        <h3>Kampanyalar</h3>
+                        <ul class="p-0 m-0">
+                            <li class="my-4 fs-6"><a href="#">Aktif Kampanyalar</a></li>
+                            <li class="my-4 fs-6"><a href="#">Elite Üyelik</a></li>
+                            <li class="my-4 fs-6"><a href="#">Hediye Fikirleri</a></li>
+                            <li class="my-4 fs-6"><a href="#">Trendyol Fırsatları</a></li>
+                        </ul>
+                        <h3>Sosyal Medya</h3>
+                        <ul class="p-0 m-0 mt-3 d-flex gap-4">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook fs-3"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter fs-3"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram fs-3"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube fs-3"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+
+                <nav class="col-3">
+                    <div>
+                        <h3>Yardım</h3>
+                        <ul class="p-0 m-0">
+                            <li class="my-4 fs-6"><a href="#">Sıkça Sorulan Sorular</a></li>
+                            <li class="my-4 fs-6"><a href="#">Canlı Yardım</a></li>
+                            <li class="my-4 fs-6"><a href="#">Nasıl İade Edebilirim</a></li>
+                            <li class="my-4 fs-6"><a href="#">İşlem Rehberi</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <p class="text-center mt-5 fw-bold">Cloned by Mustafa Atmaca 2023</p>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

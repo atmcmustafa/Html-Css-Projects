@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce | Clone</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body>
+
+    <!-- navbar start -->
+    <div>
+        <nav class="flex flex-col  md:flex-row items-center justify-between p-8">
+            <div>
+                <a href="#" class="text-3xl font-bold">LOGO</a>
+            </div>
+            <div>
+                <ul class="flex items-center gap-8">
+                    <li class="hover:text-gray-600"><a href="#">Home</a></li>
+                    <li class="hover:text-gray-600"><a href="#">Shop</a></li>
+                    <li class="hover:text-gray-600"><a href="#">Blog</a></li>
+                    <li class="hover:text-gray-600"><a href="#">Content</a></li>
+                    <li
+                        class="bg-purple-600 rounded-full px-5 py-2 text-gray-50 hover:text-gray-200 hover:bg-purple-900">
+                        <a class="flex items-center" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-5 h-5 mr-1 ">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                            Cart(0)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div> <!-- navbar end -->
+
+
+    <!--hero section start-->
+    <div class="container mx-auto p-3">
+        <div class="flex flex-col md:flex-row justify-center w-full">
+            <div
+                class="w-full items-center md:items-start mb-8 md:mb-0 md:text-start text-center md:w-2/5 flex flex-col justify-center ">
+                <h1 class="font-bold text-5xl mb-2">Lorem ipsum dolor sit amet.</h1>
+                <p class="text-xl text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut natus aut
+                    quos.</p>
+                <p class="text-xl text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut natus aut
+                    quos.</p>
+                <a class="mt-5 rounded-full px-12 py-3 bg-gradient-to-r from-pink-600 text-gray-50 to-indigo-600 w-fit"
+                    href="#">Shop
+                    Now</a>
+            </div>
+            <div class="w-full items-center md:items-start mb-4 md:mb-0 md:text-start text-center  md:w-3/5">
+                <img src="images/hero-img.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--hero section end-->
+
+
+    <!-- mens collection start -->
+    <div iv class="container mx-auto p-3">
+        <div class="flex justify-between mt-4">
+            <span class="text-3xl ">Men's Collections</span>
+            <span class="text-xl flex items-center">
+                View All
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 ml-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+            </span>
+        </div>
+
+        <!-- cards start -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-5 ">
+            <div class="flex flex-col rounded-lg mt-4 shadow-xl ">
+                <img src="images/products/men/product1.jpg" class="rounded-t-lg" alt="">
+                <div class="p-3">
+                    <span class="text-xl mt-2 ">Men's T-Shirt</span>
+                    <!-- colors -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="h-5 w-5 rounded-full bg-black"></div>
+                        <div class="h-5 w-5 rounded-full bg-blue-800"></div>
+                        <div class="h-5 w-5 rounded-full bg-white"></div>
+                        <div class="h-5 w-5 rounded-full bg-red-600"></div>
+                        <div class="h-5 w-5 rounded-full bg-green-800"></div>
+                    </div>
+                    <!-- sizes -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">XL</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">L</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">M</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">S</div>
+                    </div>
+                    <!-- buttons -->
+                    <div class="flex flex-col md:flex-row gap-2 justify-between my-4 text-sm ">
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-pink-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                            Add to cart
+                        </button>
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-purple-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col rounded-lg mt-4 shadow-xl ">
+                <img src="images/products/men/product2.jpg" class="rounded-t-lg" alt="">
+                <div class="p-3">
+                    <span class="text-xl mt-2 ">Men's T-Shirt</span>
+                    <!-- colors -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="h-5 w-5 rounded-full bg-black"></div>
+                        <div class="h-5 w-5 rounded-full bg-blue-800"></div>
+                        <div class="h-5 w-5 rounded-full bg-white"></div>
+                        <div class="h-5 w-5 rounded-full bg-red-600"></div>
+                        <div class="h-5 w-5 rounded-full bg-green-800"></div>
+                    </div>
+                    <!-- sizes -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">XL</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">L</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">M</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">S</div>
+                    </div>
+                    <!-- buttons -->
+                    <div class="flex flex-col md:flex-row gap-2 justify-between my-4 text-sm ">
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-pink-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                            Add to cart
+                        </button>
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-purple-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col rounded-lg mt-4 shadow-xl ">
+                <img src="images/products/men/product3.jpg" class="rounded-t-lg" alt="">
+                <div class="p-3">
+                    <span class="text-xl mt-2 ">Men's T-Shirt</span>
+                    <!-- colors -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="h-5 w-5 rounded-full bg-black"></div>
+                        <div class="h-5 w-5 rounded-full bg-blue-800"></div>
+                        <div class="h-5 w-5 rounded-full bg-white"></div>
+                        <div class="h-5 w-5 rounded-full bg-red-600"></div>
+                        <div class="h-5 w-5 rounded-full bg-green-800"></div>
+                    </div>
+                    <!-- sizes -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">XL</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">L</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">M</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">S</div>
+                    </div>
+                    <!-- buttons -->
+                    <div class="flex flex-col md:flex-row gap-2 justify-between my-4 text-sm ">
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-pink-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                            Add to cart
+                        </button>
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-purple-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col rounded-lg mt-4 shadow-xl ">
+                <img src="images/products/men/product4.jpg" class="rounded-t-lg" alt="">
+                <div class="p-3">
+                    <span class="text-xl mt-2 ">Men's T-Shirt</span>
+                    <!-- colors -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="h-5 w-5 rounded-full bg-black"></div>
+                        <div class="h-5 w-5 rounded-full bg-blue-800"></div>
+                        <div class="h-5 w-5 rounded-full bg-white"></div>
+                        <div class="h-5 w-5 rounded-full bg-red-600"></div>
+                        <div class="h-5 w-5 rounded-full bg-green-800"></div>
+                    </div>
+                    <!-- sizes -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">XL</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">L</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">M</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">S</div>
+                    </div>
+                    <!-- buttons -->
+                    <div class="flex flex-col md:flex-row gap-2 justify-between my-4 text-sm ">
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-pink-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                            Add to cart
+                        </button>
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-purple-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- cards end -->
+
+    </div>
+    <!-- mens collection end -->
+
+
+    <!-- women collection start -->
+    <div iv class="container mx-auto p-3">
+        <div class="flex justify-between mt-4">
+            <span class="text-3xl ">Women's Collections</span>
+            <span class="text-xl flex items-center">
+                View All
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 ml-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+            </span>
+        </div>
+
+        <!-- cards start -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-5 ">
+            <div class="flex flex-col rounded-lg mt-4 shadow-xl ">
+                <img src="images/products/women/product1.jpg" class="rounded-t-lg" alt="">
+                <div class="p-3">
+                    <span class="text-xl mt-2 ">Women's T-Shirt</span>
+                    <!-- colors -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="h-5 w-5 rounded-full bg-black"></div>
+                        <div class="h-5 w-5 rounded-full bg-blue-800"></div>
+                        <div class="h-5 w-5 rounded-full bg-white"></div>
+                        <div class="h-5 w-5 rounded-full bg-red-600"></div>
+                        <div class="h-5 w-5 rounded-full bg-green-800"></div>
+                    </div>
+                    <!-- sizes -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">XL</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">L</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">M</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">S</div>
+                    </div>
+                    <!-- buttons -->
+                    <div class="flex flex-col md:flex-row gap-2 justify-between my-4 text-sm ">
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-pink-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                            Add to cart
+                        </button>
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-purple-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col rounded-lg mt-4 shadow-xl ">
+                <img src="images/products/women/product2.jpg" class="rounded-t-lg" alt="">
+                <div class="p-3">
+                    <span class="text-xl mt-2 ">Men's T-Shirt</span>
+                    <!-- colors -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="h-5 w-5 rounded-full bg-black"></div>
+                        <div class="h-5 w-5 rounded-full bg-blue-800"></div>
+                        <div class="h-5 w-5 rounded-full bg-white"></div>
+                        <div class="h-5 w-5 rounded-full bg-red-600"></div>
+                        <div class="h-5 w-5 rounded-full bg-green-800"></div>
+                    </div>
+                    <!-- sizes -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">XL</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">L</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">M</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">S</div>
+                    </div>
+                    <!-- buttons -->
+                    <div class="flex flex-col md:flex-row gap-2 justify-between my-4 text-sm ">
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-pink-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                            Add to cart
+                        </button>
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-purple-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col rounded-lg mt-4 shadow-xl ">
+                <img src="images/products/women/product3.jpg" class="rounded-t-lg" alt="">
+                <div class="p-3">
+                    <span class="text-xl mt-2 ">Men's T-Shirt</span>
+                    <!-- colors -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="h-5 w-5 rounded-full bg-black"></div>
+                        <div class="h-5 w-5 rounded-full bg-blue-800"></div>
+                        <div class="h-5 w-5 rounded-full bg-white"></div>
+                        <div class="h-5 w-5 rounded-full bg-red-600"></div>
+                        <div class="h-5 w-5 rounded-full bg-green-800"></div>
+                    </div>
+                    <!-- sizes -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">XL</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">L</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">M</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">S</div>
+                    </div>
+                    <!-- buttons -->
+                    <div class="flex flex-col md:flex-row gap-2 justify-between my-4 text-sm ">
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-pink-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                            Add to cart
+                        </button>
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-purple-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col rounded-lg mt-4 shadow-xl ">
+                <img src="images/products/women/product4.jpg" class="rounded-t-lg" alt="">
+                <div class="p-3">
+                    <span class="text-xl mt-2 ">Men's T-Shirt</span>
+                    <!-- colors -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="h-5 w-5 rounded-full bg-black"></div>
+                        <div class="h-5 w-5 rounded-full bg-blue-800"></div>
+                        <div class="h-5 w-5 rounded-full bg-white"></div>
+                        <div class="h-5 w-5 rounded-full bg-red-600"></div>
+                        <div class="h-5 w-5 rounded-full bg-green-800"></div>
+                    </div>
+                    <!-- sizes -->
+                    <div class="flex gap-2 mt-2">
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">XL</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">L</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">M</div>
+                        <div class="px-2 shadow-lg text-gray-400 border-2 border-gray-300 rounded-lg">S</div>
+                    </div>
+                    <!-- buttons -->
+                    <div class="flex flex-col md:flex-row gap-2 justify-between my-4 text-sm ">
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-pink-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                            Add to cart
+                        </button>
+                        <button
+                            class="flex px-4 py-2 rounded-full shadow-lg text-gray-50 bg-gradient-to-r from-purple-600 to-indigo-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-4 h-4 my-auto mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- cards end -->
+    </div>
+    <!-- woman collections end -->
+
+    <!-- subscribe start -->
+    <div class="container mx-auto p-3">
+        <div class="flex bg-gradient-to-r from-black to-purple-600 p-">
+            <div class="w-full text-center md:w-3/5 text-gray-50  p-12 my-auto">
+                <h3 class="text-3xl">Subscribe to get offer first</h3>
+                <p class="text-lg mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere modi
+                    reprehenderit
+                    itaque? Soluta
+                    nisi iste quaerat.
+                </p>
+                <input type="email" placeholder="Enter your email"
+                    class="bg-slate-700 text-gray-50 focus:outlinnone px-4 py-3 rounded-lg mt-4 w-full">
+                <button class="mt-4 w-full px-12 py-3 rounded-lg bg-red-600">
+                    Subscribe
+                </button>
+            </div>
+            <div class="w-2/5 hidden md:flex">
+                <img src="images/subscribe-banner.png" alt="" class="">
+            </div>
+
+        </div>
+    </div>
+    <!-- subscribe end -->
+
+
+    <!-- footer start -->
+    <div class="container mx-auto p-3">
+        <div class="border-t-2 border-gray-300 ">
+            <div class="flex md:flex-row flex-col justify-center items-center md:items-start md:justify-between mt-5">
+                <div>
+                    <ul class="flex gap-3">
+                        <li>About</li>
+                        <li>Privacy &Policy</li>
+                        <li>Terms</li>
+                    </ul>
+                </div>
+                <p>©2022 Copyright Deserved</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+
+
+
+</body>
+
+</html>

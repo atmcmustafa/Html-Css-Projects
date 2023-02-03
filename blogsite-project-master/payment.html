@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Settings</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body class="flex justify-center items-center h-screen">
+
+
+    <!-- settings -->
+    <section>
+        <div class="container p-8 md:p-0 flex flex-col ">
+            <h3 class="text-4xl font-bold my-6">Settings</h3>
+            <ul class="flex gap-8 text-halfGray py-3 border-b border-halfGray ">
+                <li><a class="hover:text-black duration-300" href="user-profile.html">Account</a></li>
+                <li><a class="hover:text-black duration-300" href="publishing.html">Publishing</a></li>
+                <li><a class=" hover:text-black duration-300" href="notifications.html">Notifications</a></li>
+                <li><a class="text-black active font-semibold hover:text-black duration-300"
+                        href="payment.html">Payment</a></li>
+            </ul>
+
+            <!-- account info -->
+            <div class="wrapper flex flex-col justify-between">
+                <div class="flex justify-between w-full my-3">
+                    <span class="font-semibold text-xl">Payment Settings
+                    </span>
+                </div>
+                <div class="flex justify-between w-full my-3">
+                    <span class="font-semibold">Membership status
+                    </span>
+                    <span class="text-halfGray">
+                        Inactive
+                    </span>
+                </div>
+                <div class="flex justify-between w-full my-3">
+                    <span class="flex flex-col font-semibold">Upgrade to a Medium Membership
+                        <small class="w-2/3 text-halfGray">Subscribe for unlimited access to the smartest writers and
+                            biggest ideas on Medium..</small>
+                    </span>
+                    <i class="fas fa-arrow-right cursor-pointer"></i>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- go to mainpage button -->
+        <div
+            class="hover:bg-lightGreen duration-300 cursor-pointer px-12 py-3 mx-auto mt-8 text-center flex bg-black w-fit rounded-full text-white justify-center items-center">
+            <a class=" " href="index.html">Go to Mainpage</a>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

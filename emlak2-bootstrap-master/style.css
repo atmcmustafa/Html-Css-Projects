@@ -1,0 +1,70 @@
+
+.bg-gray {
+    background: #e3e3e3;;
+}
+
+
+
+input {
+    outline: none !important;
+    border: none;
+}
+
+.dark-color {
+    color: #CB9C57;
+}
+
+body {
+        font-family: "Unna", serif;
+}
+
+
+.active {
+    color: #000;
+    border-bottom: 1px solid rgba(0,0,0,.4);
+}
+
+.links a{
+    letter-spacing: 1.3px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.collapse a:hover {
+     border-bottom: 1px solid rgba(0,0,0,.4);
+}
+
+.slide {
+    background-image: url(img/bg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 550px;
+}
+
+.space {
+    background: #fff;
+    text-align: center;
+    height: 550px;
+}
+
+.portfolio {
+    background: #fff;
+    text-align: center;
+    height: 350px;
+}
+
+
+.our-story {
+    background-image: url(img/bg-2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+        height: 350px;
+}
+
+
+#map {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}

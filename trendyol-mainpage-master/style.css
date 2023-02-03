@@ -1,0 +1,40 @@
+* {
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+
+a {
+    color: black;
+}
+
+.links a:hover {
+    color: orange;
+    border-bottom: 3px solid orange;
+    transition: all 200ms;
+
+}
+
+.card-hover:hover {
+    background: orange !important;
+    transition: all 500ms;
+}
+
+a.hidden {
+    display: none;
+}
+
+.card-hover:hover a {
+    display: block;
+}
+
+i.heart:hover {
+    cursor: pointer;
+    color: orange;
+    transition: all 500ms;
+
+}
+
+footer a {
+    color: white;
+}
